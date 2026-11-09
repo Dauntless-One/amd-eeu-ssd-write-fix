@@ -57,11 +57,19 @@ Adds one NTFS **deny** rule for `SYSTEM` (write data, append, write attributes, 
 
 ### 1. Download
 
-Download `Fix-AmdEeuSsdWrites.ps1` from this repo (or the Releases page) and check its SHA-256 against the release notes:
+Download `Fix-AmdEeuSsdWrites.ps1` from this repo (open the file, then **Download raw file**), or clone the repo / **Code > Download ZIP**. Check its SHA-256:
 
 ```powershell
 Get-FileHash .\Fix-AmdEeuSsdWrites.ps1 -Algorithm SHA256
 ```
+
+Expected:
+
+```
+541E531405152C4B0ACFC3654397656BF3DA46527A43CB5BDD787413D767487D
+```
+
+If the hash differs, the file was modified or corrupted in transit. Don't run it.
 
 ### 2. Open an elevated PowerShell
 
