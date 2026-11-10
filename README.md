@@ -66,7 +66,7 @@ Get-FileHash .\Fix-AmdEeuSsdWrites.ps1 -Algorithm SHA256
 Expected:
 
 ```
-541E531405152C4B0ACFC3654397656BF3DA46527A43CB5BDD787413D767487D
+07D0323445619C5251CA0D42AA9327C637FB046F35266BC743D35D3C33EB211C
 ```
 
 If the hash differs, the file was modified or corrupted in transit. Don't run it.
@@ -167,7 +167,7 @@ A new driver installs a new `atieclxx.exe`. `-Action Status` warns if the protec
 | Component | Value |
 |---|---|
 | OS | Windows 11 Pro, build 26200 |
-| GPU | Radeon RX 7900 XT, Adrenalin 26.20 (driver 32.0.32015.7029) |
+| GPU | Radeon RX 7900 XT, Adrenalin 26.10.1 (driver 26.20.15.07, Windows 32.0.32015.7029) |
 | CPU | Ryzen 9 7950X3D |
 | Boot SSD | WD_BLACK SN770 500 GB |
 | Display | 4K 120 Hz FreeSync TV over HDMI |

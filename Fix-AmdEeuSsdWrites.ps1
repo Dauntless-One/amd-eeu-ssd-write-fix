@@ -16,7 +16,7 @@
     (measured with PresentMon). This script keeps the service running and instead adds an NTFS
     deny rule for SYSTEM on that one copied file, so the copy fails and nothing is written.
 
-    Tested result on one system (RX 7900 XT, Adrenalin 26.20 / driver 32.0.32015.7029,
+    Tested result on one system (RX 7900 XT, Adrenalin 26.10 / driver 32.0.32015.7029,
     Windows 11 Pro build 26200, PowerShell 5.1 and 7.6):
       - Writes to the file: about 78 copies/min -> 0
       - atieclxx.exe stays running, about 0.04% CPU
